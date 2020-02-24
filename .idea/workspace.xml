@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786c157a-033c-45a5-b13f-c682cf86896b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gpu_info_display.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gpu_info_display.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pie.py" beforeDir="false" afterPath="$PROJECT_DIR$/pie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/query_nvidia.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/query_nvidia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,29 +64,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gpu_info_display" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pie">
     <configuration name="pie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gpu_info_display" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +79,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="query_nvidia (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gpu_info_display" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/query_nvidia.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,14 +131,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="gpu_info_display" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -133,7 +153,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -141,11 +161,18 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Flask server.gpu_info_display" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Python.pie" />
+      <item itemvalue="Python.query_nvidia" />
+      <item itemvalue="Python.query_nvidia (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.pie" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.query_nvidia (1)" />
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.query_nvidia" />
       </list>
     </recent_temporary>
@@ -175,7 +202,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582420580681</updated>
-      <workItem from="1582420583092" duration="10621000" />
+      <workItem from="1582420583092" duration="17658000" />
+      <workItem from="1582457403413" duration="297000" />
+      <workItem from="1582457836845" duration="1807000" />
+      <workItem from="1582506633994" duration="7769000" />
     </task>
     <task id="LOCAL-00001" summary="run successfully">
       <created>1582433003908</created>
@@ -184,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582433003908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="run pieChart &#10;successfully">
+      <created>1582440876525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582440876525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,73 +229,89 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="run successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="run successfully" />
+    <MESSAGE value="run pieChart &#10;successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="run pieChart &#10;successfully" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1582431652696">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1582431652696" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582433003744">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582510835912">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582433003744" />
-    <state width="1396" height="257" key="GridCell.Tab.0.bottom" timestamp="1582440841069">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582510835912" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582440876367">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="257" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582440841069" />
-    <state width="1396" height="257" key="GridCell.Tab.0.center" timestamp="1582440841068">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582440876367" />
+    <state x="477" y="206" key="FileChooserDialogImpl" timestamp="1582458772154">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="257" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582440841068" />
-    <state width="1396" height="257" key="GridCell.Tab.0.left" timestamp="1582440841067">
+    <state x="477" y="206" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1582458772154" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1582562883895">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="257" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582440841067" />
-    <state width="1396" height="257" key="GridCell.Tab.0.right" timestamp="1582440841068">
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582562883895" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1582562883894">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="257" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582440841068" />
-    <state width="1396" height="212" key="GridCell.Tab.1.bottom" timestamp="1582432597079">
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582562883894" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1582562883893">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="212" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582432597079" />
-    <state width="1396" height="212" key="GridCell.Tab.1.center" timestamp="1582432597077">
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582562883893" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1582562883895">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="212" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582432597077" />
-    <state width="1396" height="212" key="GridCell.Tab.1.left" timestamp="1582432597077">
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582562883895" />
+    <state width="1398" height="236" key="GridCell.Tab.1.bottom" timestamp="1582562711833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="212" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582432597077" />
-    <state width="1396" height="212" key="GridCell.Tab.1.right" timestamp="1582432597078">
+    <state width="1398" height="236" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582562711833" />
+    <state width="1398" height="236" key="GridCell.Tab.1.center" timestamp="1582562711832">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="212" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582432597078" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1582432906585">
+    <state width="1398" height="236" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582562711832" />
+    <state width="1398" height="236" key="GridCell.Tab.1.left" timestamp="1582562711831">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582432906585" />
-    <state x="626" y="187" width="339" height="525" key="ftp.server.browser" timestamp="1582431650841">
+    <state width="1398" height="236" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582562711831" />
+    <state width="1398" height="236" key="GridCell.Tab.1.right" timestamp="1582562711832">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="626" y="187" width="339" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1582431650841" />
+    <state width="1398" height="236" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582562711832" />
+    <state x="191" y="83" key="SettingsEditor" timestamp="1582536661586">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="191" y="83" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582536661586" />
+    <state x="626" y="187" width="339" height="525" key="ftp.server.browser" timestamp="1582507486982">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="626" y="187" width="339" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1582507486982" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utils/query_nvidia.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pie.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gpu_info_display$pie.coverage" NAME="pie Coverage Results" MODIFIED="1582435666715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gpu_info_display$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1582440841059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$pie.coverage" NAME="pie Coverage Results" MODIFIED="1582562883882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1582506849891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$query_nvidia__1_.coverage" NAME="query_nvidia (1) Coverage Results" MODIFIED="1582514177097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/gpu_info_display$app.coverage" NAME="app Coverage Results" MODIFIED="1582432778673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gpu_info_display$query_nvidia.coverage" NAME="query_nvidia Coverage Results" MODIFIED="1582431712063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$calendar.coverage" NAME="calendar Coverage Results" MODIFIED="1582510781107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$query_nvidia.coverage" NAME="query_nvidia Coverage Results" MODIFIED="1582457337372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>

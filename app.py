@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import utils.query_nvidia as qNV
+import tools.query_nvidia as qNV
 from pyecharts import options as opts
 from pyecharts.charts import Bar, Pie
 import random

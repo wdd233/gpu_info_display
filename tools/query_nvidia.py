@@ -42,7 +42,7 @@ def status_analysis(dataframe):
     groupby_user = dataframe.groupby('PID_PATH')
     groupby_GPU = dataframe.groupby('GPU')
     all_gpu_info = groupby_GPU['MEM'].sum()
-    return groupby_user, all_gpu_info
+    return groupby_user, groupby_GPU, all_gpu_info
 
 if __name__ == '__main__':
     args = get_args()
@@ -51,8 +51,7 @@ if __name__ == '__main__':
         print("========Time: %s==========" % time.strftime("%Y-%m-%d %H:%M:%S"))
         gpu_summary_log = query_GPU_status(args.command, args.keyword)
         gpu_df = pd.DataFrame(gpu_summary_log, columns=['PID', 'GPU', 'PID_PATH', 'MEM'])
-        user_stat, all_gpu_info = status_analysis(gpu_df)
-
+        user_stat, gpu_stat, all_gpu_info = status_analysis(gpu_df)
         print('=====Over======')
         time.sleep(20)
 
