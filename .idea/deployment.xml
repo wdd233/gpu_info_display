@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="bobo-outer">
+  <component name="PublishConfigData" autoUpload="Always" serverName="bobo-outer" showAutoUploadSettingsWarning="false">
     <serverData>
       <paths name="bobo-outer">
         <serverdata>
           <mappings>
             <mapping deploy="/home/bobo/gpu_info_display" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="dl">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/dl/gpu_info_display" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

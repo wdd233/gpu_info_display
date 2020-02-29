@@ -4,6 +4,7 @@ from pyecharts import options as opts
 from pyecharts.charts import Bar, Pie
 import random
 import time
+import multi_tab
 app = Flask(__name__)
 
 
@@ -35,10 +36,10 @@ def index():
     return render_template("index.html")
 
 @app.route("/barChart")
-def draw_bar_chart():
+def draw_multi_tab_chart():
     # gpu_summary_log = qNV.query_GPU_status('nvidia-smi', 'PID')
     # c = bar_base()
-    c = pie_base()
+    c = multi_tab.draw_tab()
     return c.dump_options_with_quotes()
 
 # @app.route("/pieChart")
