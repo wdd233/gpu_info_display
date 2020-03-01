@@ -50,5 +50,5 @@ def draw_tab():
 #     )
 #     return table
 if __name__ == '__main__':
-    draw_tab()
+    info_multi_tab = draw_tab()
     info_multi_tab.render('tab.html')

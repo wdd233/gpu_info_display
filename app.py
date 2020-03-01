@@ -33,7 +33,12 @@ def pie_base():
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    # c = multi_tab.draw_tab()
+    c = multi_tab.draw_tab()
+    c.render('templates/tab.html')
+    # return c.dump_options_with_quotes()
+    return render_template("tab.html")
+    # return render_template("index.html")
 
 @app.route("/barChart")
 def draw_multi_tab_chart():
@@ -49,4 +54,4 @@ def draw_multi_tab_chart():
 #     return p.dump_options_with_quotes()
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
