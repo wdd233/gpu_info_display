@@ -28,7 +28,7 @@ def draw_pie_chart(groupby_gpu, GPU_count=7) -> Pie:
     global pie, data
     base_radius = int(250 // GPU_count * 1.5)
     loc_x = 10#起始位置
-    step = 10#x轴步长
+    step = 10#调整饼图的间距
     loc_y = 20
     pie = Pie(init_opts=opts.InitOpts(width="1600px", height="900px", theme=ThemeType.ROMA))
     all_gpu_info = groupby_gpu['MEM'].sum()

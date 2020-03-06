@@ -19,7 +19,7 @@ def get_args():
 def query_GPU_status(cmd, user_name='bobo', keyword='PID'):
     user_list = '(liuq|wang|Zhaowei)'
     pat = '\d+'#PID为数字，通过查询数字找到pid
-    pat2 = '\/%s.+'%user_name#查询bobo相关字段
+    pat2 = '\%s.+'%user_name#proc中查询bobo相关字段
     query_pid_cmd = "ls -l /proc/{}/cwd"
     result = os.popen(cmd)
     res = result.read().splitlines()

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786c157a-033c-45a5-b13f-c682cf86896b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gpu_info_display.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gpu_info_display.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multi_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_tab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pie.py" beforeDir="false" afterPath="$PROJECT_DIR$/pie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/query_nvidia.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/query_nvidia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="JupyterTrust" id="a17e47d4-48cc-400d-a8fa-b251189ee702" />
   <component name="ProjectId" id="1YBenQoB6hbkVPC8GTl0WSfwU8H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,7 +66,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
+  <component name="RunManager" selected="Flask server.Flask (app.py) (1)">
     <configuration name="grid_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gpu_info_display" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,29 +133,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (app.py) (1)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="gpu_info_display" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host=0.0.0.0 --port=5000" />
       <module name="gpu_info_display" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
@@ -184,19 +181,19 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.gpu_info_display" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Flask server.Flask (app.py) (1)" />
       <item itemvalue="Python.query_nvidia" />
       <item itemvalue="Python.multi_tab" />
       <item itemvalue="Python.grid_test" />
-      <item itemvalue="Python.table" />
-      <item itemvalue="Flask server.Flask (app.py)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Flask server.Flask (app.py) (1)" />
         <item itemvalue="Python.multi_tab" />
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.query_nvidia" />
         <item itemvalue="Python.grid_test" />
-        <item itemvalue="Python.table" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +226,10 @@
       <workItem from="1582457403413" duration="297000" />
       <workItem from="1582457836845" duration="1807000" />
       <workItem from="1582506633994" duration="26157000" />
-      <workItem from="1582766647515" duration="13674000" />
+      <workItem from="1582766647515" duration="19321000" />
+      <workItem from="1583039914369" duration="6097000" />
+      <workItem from="1583464575655" duration="1124000" />
+      <workItem from="1583466058155" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="run successfully">
       <created>1582433003908</created>
@@ -259,94 +259,135 @@
       <option name="project" value="LOCAL" />
       <updated>1582945791048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1">
+      <created>1582961345415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582961345415</updated>
+    </task>
+    <task id="LOCAL-00006" summary="使用静态加载网页，刷新请求服务的方式">
+      <created>1583032926678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583032926678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改了render_templates动态加载">
+      <created>1583465672674</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583465672674</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="run successfully" />
     <MESSAGE value="run pieChart &#10;successfully" />
     <MESSAGE value="成功输出GPU_pie图" />
     <MESSAGE value="使用table" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用table" />
+    <MESSAGE value="v1" />
+    <MESSAGE value="使用静态加载网页，刷新请求服务的方式" />
+    <MESSAGE value="修改了render_templates动态加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了render_templates动态加载" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Deployment" timestamp="1582783445820">
+    <state x="320" y="115" key="#Deployment" timestamp="1583466887151">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1582783445820" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582959032140">
+    <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1583466887151" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583032767523">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582959032140" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1583032767523" />
     <state x="562" y="347" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1582766830711">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="562" y="347" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1440.900@0.0.1440.900" timestamp="1582766830711" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582945790913">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1583465672535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582945790913" />
-    <state x="100" y="57" width="1240" height="738" key="DiffContextDialog" timestamp="1582960865956">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583465672535" />
+    <state x="100" y="57" width="1240" height="738" key="DiffContextDialog" timestamp="1583113772703">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="57" width="1240" height="738" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1582960818113" />
-    <state x="100" y="57" width="1240" height="738" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1582960865956" />
+    <state x="100" y="57" width="1240" height="738" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1583113772703" />
+    <state x="100" y="57" width="1240" height="738" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1583031727538" />
     <state x="477" y="206" key="FileChooserDialogImpl" timestamp="1582458772154">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="477" y="206" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1582458772154" />
-    <state width="1398" height="273" key="GridCell.Tab.0.bottom" timestamp="1582961169528">
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom" timestamp="1583467016649">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582961169528" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582946322720" />
-    <state width="1398" height="273" key="GridCell.Tab.0.center" timestamp="1582961169526">
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583467016649" />
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583111956560" />
+    <state width="1398" height="471" key="GridCell.Tab.0.center" timestamp="1583467016647">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582961169526" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582946322718" />
-    <state width="1398" height="273" key="GridCell.Tab.0.left" timestamp="1582961169524">
+    <state width="1398" height="471" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583467016647" />
+    <state width="1398" height="284" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583111956558" />
+    <state width="1398" height="471" key="GridCell.Tab.0.left" timestamp="1583467016646">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582961169524" />
+    <state width="1398" height="471" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583467016646" />
     <state width="1398" height="298" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.877" timestamp="1582771946867" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582946322717" />
-    <state width="1398" height="273" key="GridCell.Tab.0.right" timestamp="1582961169527">
+    <state width="1398" height="284" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583111956556" />
+    <state width="1398" height="471" key="GridCell.Tab.0.right" timestamp="1583467016648">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582961169527" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582946322719" />
-    <state width="1398" height="394" key="GridCell.Tab.1.bottom" timestamp="1582961113862">
+    <state width="1398" height="471" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583467016648" />
+    <state width="1398" height="284" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583111956559" />
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1583465726557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="394" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582961113862" />
-    <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582771949066" />
-    <state width="1398" height="394" key="GridCell.Tab.1.center" timestamp="1582961113860">
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583465726557" />
+    <state width="1398" height="284" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583465250278" />
+    <state width="1398" height="256" key="GridCell.Tab.1.center" timestamp="1583465726556">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="394" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582961113860" />
-    <state width="1398" height="298" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1582771949064" />
-    <state width="1398" height="394" key="GridCell.Tab.1.left" timestamp="1582961113860">
+    <state width="1398" height="256" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583465726556" />
+    <state width="1398" height="284" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1583465250277" />
+    <state width="1398" height="256" key="GridCell.Tab.1.left" timestamp="1583465726555">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="394" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582961113860" />
-    <state width="1398" height="298" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1582771949063" />
-    <state width="1398" height="394" key="GridCell.Tab.1.right" timestamp="1582961113861">
+    <state width="1398" height="256" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583465726555" />
+    <state width="1398" height="284" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1583465250276" />
+    <state width="1398" height="256" key="GridCell.Tab.1.right" timestamp="1583465726556">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="394" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582961113861" />
-    <state width="1398" height="298" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1582771949065" />
-    <state x="191" y="83" key="SettingsEditor" timestamp="1582960741409">
+    <state width="1398" height="256" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583465726556" />
+    <state width="1398" height="284" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583465250277" />
+    <state x="191" y="83" width="1226" height="722" key="SettingsEditor" timestamp="1583466265991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="191" y="83" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582960741409" />
-    <state x="626" y="187" width="339" height="525" key="ftp.server.browser" timestamp="1582594110642">
+    <state x="191" y="83" width="1226" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583466265991" />
+    <state x="626" y="187" width="339" height="525" key="ftp.server.browser" timestamp="1583466884977">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="626" y="187" width="339" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1582594110642" />
+    <state x="626" y="187" width="339" height="525" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1583466884977" />
+    <state x="482" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1583466192983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="88" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1583466192983" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,29 +407,20 @@
           <line>62</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/multi_tab.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gpu_info_display$pie.coverage" NAME="pie Coverage Results" MODIFIED="1582785437988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gpu_info_display$grid_test.coverage" NAME="grid_test Coverage Results" MODIFIED="1582946322707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gpu_info_display$multi_tab.coverage" NAME="multi_tab Coverage Results" MODIFIED="1582947271491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$multi_tab.coverage" NAME="multi_tab Coverage Results" MODIFIED="1583041406138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gpu_info_display$table.coverage" NAME="table Coverage Results" MODIFIED="1582946098710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gpu_info_display$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1582961169515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1583040096913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/gpu_info_display$query_nvidia__1_.coverage" NAME="query_nvidia (1) Coverage Results" MODIFIED="1582514177097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/gpu_info_display$app.coverage" NAME="app Coverage Results" MODIFIED="1582432778673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gpu_info_display$calendar.coverage" NAME="calendar Coverage Results" MODIFIED="1582510781107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gpu_info_display$query_nvidia.coverage" NAME="query_nvidia Coverage Results" MODIFIED="1582946482757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$query_nvidia.coverage" NAME="query_nvidia Coverage Results" MODIFIED="1583030897903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/gpu_info_display$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1583466992862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/gpu_info_display$test.coverage" NAME="test Coverage Results" MODIFIED="1582628243648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

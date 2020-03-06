@@ -1,7 +1,7 @@
 from pyecharts.faker import Faker
 from pyecharts import options as opts
-from pyecharts.charts import Bar, Tab, Pie, Line
-from pyecharts.components import Table
+from pyecharts.charts import Bar, Tab
+
 from pyecharts.components import Table
 import pandas as pd
 from tools import query_nvidia as QN
@@ -17,9 +17,9 @@ def table_base(headers, rows, title="GPU Util") -> Table:
     return table
 
 
-def draw_tab():
-    GPU_NUMS = 8
-    gpu_summary_log = QN.query_GPU_status("nvidia-smi", 'bobo', "PID")
+def draw_tab(GPU_NUMS=8, user_name='bobo'):
+
+    gpu_summary_log = QN.query_GPU_status("nvidia-smi", user_name, "PID")
     info_columns = ['PID', 'GPU', 'PID_PATH', 'MEM']
     info_multi_tab = Tab()
     gpu_df = pd.DataFrame(gpu_summary_log, columns=info_columns)
