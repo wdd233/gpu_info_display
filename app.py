@@ -4,13 +4,18 @@ from pyecharts import options as opts
 from pyecharts.charts import Bar, Pie
 import random
 import time
+import os
 import multi_tab
+from pyecharts.globals import CurrentConfig
+# CurrentConfig.ONLINE_HOST = "http://127.0.0.1:8000/assets/"
+CurrentConfig.PAGE_TITLE = "614 GPU INFO"
 app = Flask(__name__)
 
 
 
 app = Flask(__name__, static_folder="templates")
-
+app.jinja_env.auto_reload = True
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 def bar_base():
     c_time = time.strftime("%Y-%m-%d %H:%M:%S")
@@ -31,21 +36,21 @@ def pie_base():
     )
     return p
 
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def index():
     # c = multi_tab.draw_tab()
     c = multi_tab.draw_tab()
+    # os.remove('templates/tab.html')
     c.render('templates/tab.html')
-    # return c.dump_options_with_quotes()
     return render_template("tab.html")
     # return render_template("index.html")
 
-@app.route("/barChart")
+@app.route("/tabChart")
 def draw_multi_tab_chart():
     # gpu_summary_log = qNV.query_GPU_status('nvidia-smi', 'PID')
     # c = bar_base()
     c = multi_tab.draw_tab()
-    return c.dump_options_with_quotes()
+    return c
 
 # @app.route("/pieChart")
 # def draw_pie_chart():
